@@ -475,6 +475,9 @@ progress {
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
+.texto-mas-grande {
+  font-size: 3rem; }
+
 .img-fluid {
   max-width: 100%;
   height: auto; }
@@ -497,6 +500,9 @@ progress {
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d; }
+
+.img-fondo {
+  height: 100px; }
 
 .container,
 .container-fluid,

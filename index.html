@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <div class="grid" style="--bs-rows: 7">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <!--Menu navegable -->
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -22,91 +23,129 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="carro.html">CARRO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">CONTACTO</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                MI CUENTA
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="iniciarSesion.html">INICIAR SESION</a></li>
-                                <li><a class="dropdown-item" href="registrarse.html">REGISTRARSE</a></li>
-                                <li><a class="dropdown-item" href="micuenta.html">MIS DATOS</a></li>
-                            </ul>
-                        </li>
-                    </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="¿Qué buscás?" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="carro.html">CARRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white fw-bolder" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MI CUENTA
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-white" href="iniciarSesion.html">INICIAR SESION</a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="registrarse.html">REGISTRARSE</a></li>
+                                <li><a class="dropdown-item text-white" href="micuenta.html">MIS DATOS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-        <!-- FIN Menu navegable -->
+    </div><!-- FIN Menu navegable -->
 
-        <div class="row">
-            <!--Imagen bienvenida -->
-            <div class="col ">
-                <h2>renglon 2</h2>
-            </div>
+    <div class="card bg-dark text-white">
+        <!--Imagen bienvenida -->
+        <img src="imagenes/fondo-cafe-chico.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay bg-dark bg-opacity-50 ">
+            <h1 class="card-title fw-bolder mt-5 text-start col-7 texto-mas-grande">CAFÉ RICO <br> FRESCO, <span
+                    class="text-success"> ENTREGADO EN TU <br> DOMICILIO</span></h1>
         </div>
-
-        <div class="row">
-            <!-- Título del Carrusel-->
-            <div class="col">
-                <h2>renglon 3</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <!--Carrusel con productos-->
-            <div class="col">
-                <h2>renglon 4</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <!--Carrusel con comentarios clientes-->
-            <div class="col">
-                <h2>renglon 5</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <!--Cómo comprar-->
-            <div class="col">
-                <h2>renglon 6</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <!--Footer-->
-            <div class="col">
-                <h2>renglon 7</h2>
-            </div>
-        </div>
-
-
     </div>
 
 
-   
+
+    <div class="bg-success p-1 d-block"><!--Carrusel con productos-->
+        <h2 class="text-white text-center fw-bolder mt-2">Nuestros Cafes</h2>
+        <br>
+        <div class="container mb-5">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="imagenes/notebooks.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagenes/tablet.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagenes/telefono.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-danger p-1">
+        <!--Carrusel con comentarios clientes-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="imagenes/notebooks.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="imagenes/tablet.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="imagenes/telefono.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="bg-secondary p-1">
+        <!--Cómo comprar-->
+        <h2>renglon 6</h2>
+    </div>
+
+    <div class="bg-primary p-3 m-0">
+        <!--Footer-->
+        <h2>footer</h2>
+    </div>
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
