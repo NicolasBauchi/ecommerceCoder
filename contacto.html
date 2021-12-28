@@ -8,11 +8,11 @@
     <title>Contacto</title>
 </head>
 <body>
-    <div class="grid" style="--bs-rows: 7">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!--Menu navegable -->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+    <div class="p-0">
+        <!--Menu navegable -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid gap-4">
+                <a class="navbar-brand me-5 pe-1 ps-3" href="index.html">
                     <img src="imagenes/logo.png" alt="" width="70" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -21,42 +21,47 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="productos.html">PRODUCTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="carro.html">CARRO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">CONTACTO</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                MI CUENTA
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="iniciarSesion.html">INICIAR SESION</a></li>
-                                <li><a class="dropdown-item" href="registrarse.html">REGISTRARSE</a></li>
-                                <li><a class="dropdown-item" href="micuenta.html">MIS DATOS</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
+                    <form class="d-flex me-1 col-5">
                         <input class="form-control me-2" type="search" placeholder="¿Qué buscás?" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
+                    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="productos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="carro.html">CARRO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bolder" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white fw-bolder" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MI CUENTA
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-white" href="iniciarSesion.html">INICIAR SESION</a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="registrarse.html">REGISTRARSE</a></li>
+                                <li><a class="dropdown-item text-white" href="micuenta.html">MIS DATOS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-        <!-- FIN Menu navegable -->
+    </div>
+    <!-- FIN Menu navegable -->
+    <div>
+        contacto
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

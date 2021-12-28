@@ -12,10 +12,10 @@
 <body>
 
     <div class="p-0">
+        <!--Menu navegable -->
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <!--Menu navegable -->
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+            <div class="container-fluid gap-4">
+                <a class="navbar-brand me-5 pe-1 ps-3" href="index.html">
                     <img src="imagenes/logo.png" alt="" width="70" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,13 +23,13 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <form class="d-flex">
+                    <form class="d-flex me-1 col-5">
                         <input class="form-control me-2" type="search" placeholder="¿Qué buscás?" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
                         <li class="nav-item">
                             <a class="nav-link text-white fw-bolder" href="index.html">INICIO</a>
                         </li>
@@ -61,7 +61,8 @@
                 </div>
             </div>
         </nav>
-    </div><!-- FIN Menu navegable -->
+    </div>
+    <!-- FIN Menu navegable -->
 
     <div class="card bg-dark text-white">
         <!--Imagen bienvenida -->
@@ -218,8 +219,11 @@
 
     <div class="bg-verde2 p-5">
         <!--Carrusel con comentarios clientes-->
-        <h2 class="h1 text-dark text-center mb-4">LO QUE NUESTROS CLIENTES <br> DICEN</h2>
+        <h2 class="h1 text-dark fw-bolder text-center mb-4">LO QUE NUESTROS CLIENTES <br> DICEN</h2>
         <div class="w-100">
+
+
+
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -231,63 +235,79 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <!--Primer comentario de clientes-->
                         <div class="card border-0 m-5">
                             <div class="card-body text-center p-3 bg-verde2">
-                                <blockquote class="blockquote mb-0">
-                                    <p>PRIMEROOOO</p>
-                                    <footer class="blockquote-footer text-end">Someone famous in</footer>
+                                <blockquote class="blockquote mb-0 text-light">
+                                    <p>"La navegación del sitio es fácil como así también el proceso de compra.
+                                        El envio merece una referencia aparte, <br> las bolsitas en el que viene los
+                                        granos
+                                        realmente conservan la frescura e intensidad de los aromas, como recien
+                                        tostados."</p>
+                                    <br>
+                                    <footer class="blockquote-footer text-end text-light fw-bolder"> Nicolas Bauchi
+                                    </footer>
                                 </blockquote>
                             </div>
                         </div>
+                        <!-- FIN Primer comentario de clientes-->
                     </div>
                     <div class="carousel-item">
-                        <div class="card">
-                            <div class="card-header">
-                                Quote
-                            </div>
-                            <div class="card-body">
-                                <blockquote class="blockquote mb-0">
-                                    <p>SEGUNDOOOO</p>
-                                    <footer class="blockquote-footer">Someone famous in <cite
-                                            title="Source Title">Source Title</cite></footer>
+                        <!--SEGUNDO comentario de clientes-->
+                        <div class="card border-0 m-5">
+                            <div class="card-body text-center p-3 bg-verde2">
+                                <blockquote class="blockquote mb-0 text-light">
+                                    <p>"Excelente café de especialidad y servicio. El café es fresco, nunca tiene más de
+                                        dos semanas desde el tostado. <br>
+                                        El servicio es impecable, nunca tuve problemas ni en plena cuarentena, además
+                                        responden todas las consultas que puedas tener súper rápido."</p>
+                                    <br>
+                                    <footer class="blockquote-footer text-end text-light fw-bolder"> Coder House
+                                    </footer>
                                 </blockquote>
                             </div>
                         </div>
+                        <!-- FIN segundo comentario de clientes-->
                     </div>
                     <div class="carousel-item">
-                        <div class="card">
-                            <div class="card-header">
-                                Quote
-                            </div>
-                            <div class="card-body">
-                                <blockquote class="blockquote mb-0">
-                                    <p>TERCEROO</p>
-                                    <footer class="blockquote-footer">Someone famous in <cite
-                                            title="Source Title">Source Title</cite></footer>
+                        <!--TERCERO comentario de clientes-->
+                        <div class="card border-0 m-5">
+                            <div class="card-body text-center p-3 bg-verde2">
+                                <blockquote class="blockquote mb-0 text-light">
+                                    <p>"Destaco el sistema de venta online y posterior delivery, <br> hace un año que
+                                        compro en Cafe Coder y la entrega es perefecta."</p>
+                                    <br>
+                                    <footer class="blockquote-footer text-end text-light fw-bolder">House Coder Nicolas
+                                    </footer>
                                 </blockquote>
                             </div>
                         </div>
+                        <!-- FIN tercer comentario de clientes-->
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
+
+            <!--Fin container carrusel-->
         </div>
-        <!--Fin container carrusel-->
-    </div>
     </div>
 
-    <div class="bg-secondary p-1">
+    <div class="bg-dark p-1">
         <!--Cómo comprar-->
-        <h2>renglon 6</h2>
+        <h2 class="h1">TRES PASOS SENCILLOS PARA HACER TU COMPRA</h2>
+        <div class="container">
+
+        </div>
+        <button class=" bg-verde2 text-white">COMPRAR CAFÉ ONLINE</button>
     </div>
 
     <div class="bg-primary p-3 m-0">
