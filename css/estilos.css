@@ -7876,3 +7876,10 @@ ul.socialIcons {
 .socialIcons .steam {
   background-color: #666666;
   box-shadow: 0 0 16px #666666; }
+
+.container-2 {
+  width: 100%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto; }
