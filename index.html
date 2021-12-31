@@ -67,9 +67,9 @@
     <!--Imagen bienvenida -->
     <div class="card bg-dark text-light">
         <img src="imagenes/fondo-cafe-chico.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay bg-dark bg-opacity-50 ">
-            <h1 class="fw-bolder  text-start" style="width: 24rem;">CAFÉ RICO <br> FRESCO, <span class="text-success">
-                    ENTREGADO EN TU <br> DOMICILIO</span></h1>
+        <div class="card-img-overlay bg-dark bg-opacity-50 d-flex">
+            <h1 class="fw-bolder mx-auto my-auto" >CAFÉ RICO <br> FRESCO, <span class="texto-verde2">
+                ENTREGADO EN TU <br> DOMICILIO</span></h1>
         </div>
     </div>
 
@@ -77,17 +77,50 @@
 
     <div class="bg-light p-1 d-block">
         <!--Carrusel con productos-->
-        <h2 class="text-dark text-center fw-bolder mt-5 fs-1">Nuestros Cafes</h2>
+        <h2 class="text-dark text-center fw-bolder mt-5 " style="font-size: 3rem;">Nuestros Cafes</h2>
         <br>
-        <div class="  ">
+        <div class="">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <!--Primer slide con fotos-->
                     <div class="carousel-item active" data-bs-interval="5000">
-                        <div class="container row gap-4">
+                        <div class="container row gap-4 justify-content-center">
+
+                            <div class="card border-0 bg-light d-flex align-content-between" style="width: 14rem;">
+                                <img src="imagenes/blend-de-la-casa.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blend de la casa</h5>
+                                    <p class="card-text text-center texto-verde2 fw-bolder">$990 - $3500</p>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="card border-0 bg-light d-flex align-content-between" style="width: 14rem;">
+                                <img src="imagenes/cafe-de-brasil.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Café de Brasil</h5>
+                                    <p class="card-text text-center texto-verde2 fw-bolder">$820 - $2900</p>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="card border-0 bg-light align-content-between" style="width: 14rem;">
+                                <img src="imagenes/cafe-nicaragua.png" class="card-img-top" alt="..."
+                                    style="height: 13rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Café de Nicaragua</h5>
+                                    <p class="card-text text-center texto-verde2 fw-bolder">$1300 - $4400</p>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Segundo slide con fotos-->
+                    <div class="carousel-item" data-bs-interval="5000">
+
+                        <div class="container row gap-4 justify-content-center">
+
+
                             <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/blend-de-la-casa.jpg" class="card-img-top" alt="..."
-                                    style="width: 14rem;">
+                                <img src="imagenes/blend-de-la-casa.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Blend de la casa</h5>
                                     <p class="card-text text-center texto-verde2 fw-bolder">$990 - $3500</p>
@@ -99,62 +132,16 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Café de Brasil</h5>
                                     <p class="card-text text-center texto-verde2 fw-bolder">$820 - $2900</p>
-                                    <a href="#" class="btn btn-primary "
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
                                 </div>
                             </div>
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/cafe-nicaragua.png" class="card-img-top" alt="...">
+                            <div class="card border-0 bg-light align-content-between" style="width: 14rem;">
+                                <img src="imagenes/cafe-nicaragua.png" class="card-img-top" alt="..."
+                                    style="height: 13rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">Café de Nicaragua</h5>
                                     <p class="card-text text-center texto-verde2 fw-bolder">$1300 - $4400</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Segundo slide con fotos-->
-                    <div class="carousel-item" data-bs-interval="5000">
-
-                        <div class="container row gap-4">
-
-
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/blend-de-la-casa.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Blend de la casa</h5>
-                                    <p class="card-text text-center texto-verde2 fw-bolder">$990 - $3500</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/cafe-de-brasil.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Café de Brasil</h5>
-                                    <p class="card-text text-center texto-verde2 fw-bolder">$820 - $2900</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/cafe-nicaragua.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Café de Nicaragua</h5>
-                                    <p class="card-text text-center texto-verde2 fw-bolder">$1300 - $4400</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/set-degustacion.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Set de degustación <br> + Masterclass + <br> Bolsa de regalo
-                                    </h5>
-                                    <p class="card-text text-center texto-verde2 fw-bolder">$990 - $3500</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
                                 </div>
                             </div>
 
@@ -167,7 +154,7 @@
                     <div class="carousel-item" data-bs-interval="5000">
 
 
-                        <div class="container row gap-4">
+                        <div class="container row gap-4 justify-content-center">
 
 
                             <div class="card border-0 bg-light" style="width: 14rem;">
@@ -175,8 +162,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Blend de la casa</h5>
                                     <p class="card-text text-center texto-verde2 fw-bolder">$990 - $3500</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
                                 </div>
                             </div>
                             <div class="card border-0 bg-light" style="width: 14rem;">
@@ -184,27 +170,16 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Café de Brasil</h5>
                                     <p class="card-text text-center texto-verde2 fw-bolder">$820 - $2900</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
                                 </div>
                             </div>
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/cafe-nicaragua.png" class="card-img-top" alt="...">
+                            <div class="card border-0 bg-light align-content-between" style="width: 14rem;">
+                                <img src="imagenes/cafe-nicaragua.png" class="card-img-top" alt="..."
+                                    style="height: 13rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">Café de Nicaragua</h5>
                                     <p class="card-text text-center texto-verde2 fw-bolder">$1300 - $4400</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card border-0 bg-light" style="width: 14rem;">
-                                <img src="imagenes/set-degustacion.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Set de degustación <br> + Masterclass + <br> Bolsa de regalo
-                                    </h5>
-                                    <p class="card-text text-center texto-verde2 fw-bolder">$990 - $3500</p>
-                                    <a href="#" class="btn btn-primary"
-                                        style="background-color: #66c1bf; border: 0px;">Comprar</a>
+                                    <a href="#" class="btn btn-dark">Comprar</a>
                                 </div>
                             </div>
 
@@ -356,37 +331,46 @@
     </div>
 
     <!--Footer-->
-    <footer class="text-light bg-dark" style="height: 20rem;">
-        <div class="container">
+    <footer class="text-light bg-dark pt-4" >
+        <div class="container ">
 
-            
 
-            <div class="card-group">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+
+            <div class="card-group gap-3">
+
+                <div class="card bg-dark border-0 text-center">
+                    <img src="imagenes/deli-logo.png" class="card-img-top mx-auto" alt="..." style="max-width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <p class="card-text">De la Patagonia a tu casa, con menos de 15 días <br>
+                            desde el tueste… porque el café fresco es más rico</p>
                     </div>
                 </div>
-                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
+
+
+                <div class="card text-white bg-dark mb-3 border-0" style="max-width: 18rem;">
+
                     <div class="card-body">
-                        <h5 class="card-title">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
+                        <h5 class="card-title fw-bolder" style="font-size: 1rem;">CONTACTO</h5>
+                        <hr>
+                        <p class="card-text"><span class="fw-bolder">Dirección:</span> Av. Evergreen 741</p>
+                        <p class="card-text"><span class="fw-bolder">Whatsapp:</span> 1122334455</p>
+                        <p class="card-text"><span class="fw-bolder">Correo:</span> ejemplo@hotmail.com</p>
                     </div>
                 </div>
-                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
+
+
+                <div class="card text-white bg-dark mb-3 border-0" style="max-width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
+                        <h5 class="card-title fw-bolder" style="font-size: 1rem;">SEGUINOS</h5>
+                        <hr>
+                        <div class="container">
+                            <ul class="socialIcons">
+                                <li class="facebook "><a class="" href=""><i
+                                            class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+                                <li class="twitter"><a href=""><i class="fa fa-fw fa-twitter"></i>Twitter</a></li>
+                                <li class="instagram"><a href=""><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
