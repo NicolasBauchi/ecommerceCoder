@@ -56,9 +56,82 @@
     </div>
     <!-- FIN Menu navegable -->
 
-    <div>
-        mi cuenta
-    </div>
+    <!--Comienzo de mi cuenta-->
+    <seccion class="d-inline-block justify-content-center bg-danger d-flex mt-2 pt-2 mb-2 pb-1">
+        <!--Comienzo de acceder-->
+        <div class="container bg-white order-first">
+            <h5 class="fw-bolder text-dark text-center pb-3">ACCEDER</h5>
+            <form action="#" class="container" style="width: 30rem;">
+
+                <div class="mb-3">
+                    <label for="text1" class="fw-bolder form-label">Nombre de usuario o correo electrónico *</label>
+                    <input type="text" class="form-control" id="text1">
+                </div>
+
+                <div class="mb-3 ">
+                    <label for="inputPassword" class="fw-bolder col-form-label">Contraseña *</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Recuérdame
+                        </label>
+                    </div>
+                </div>
+
+                <div class="">
+                    <input type="button" value="Registrarse" class="btn btn-dark">
+                </div>
+            </form>
+
+        </div>
+        <!--Fin acceder-->
+
+
+        
+
+        <!--Comienzo de registrarse-->
+        <div class="container bg-white order-last">
+            <h5 class="fw-bolder text-dark text-center pb-3">REGISTRARSE</h5>
+            <form action="#" class="container" style="width: 30rem;">
+
+                <div class="mb-3">
+                    <label for="mail" class="fw-bolder form-label">Dirección de correo electrónico *</label>
+                    <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com">
+                </div>
+
+
+                <div class="mb-3 ">
+                    <label for="inputPassword" class="fw-bolder col-form-label">Contraseña *</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                </div>
+
+                <div>
+                    <p>
+                        Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web,
+                        gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra
+                        <a class="texto-verde2" href="#" style="text-decoration: none;">política de privacidad</a>.
+                    </p>
+                </div>
+
+                <div class="">
+                    <input type="button" value="Registrarse" class="btn btn-dark">
+                </div>
+            </form>
+
+        </div>
+        <!--Fin registrarse-->
+
+
+    </seccion>
+    <!--FIN mi cuenta-->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
