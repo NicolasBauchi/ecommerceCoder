@@ -475,18 +475,6 @@ progress {
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.texto-mas-grande {
-  font-size: 3rem; }
-
-.texto-grey {
-  color: grey; }
-
-.texto-verde2 {
-  color: #66c1bf; }
-
-.bg-verde2 {
-  background-color: #66c1bf; }
-
 .img-fluid {
   max-width: 100%;
   height: auto; }
@@ -7883,3 +7871,19 @@ ul.socialIcons {
   padding-left: auto;
   margin-right: auto;
   margin-left: auto; }
+
+.hover-verde2:hover {
+  background-color: #66c1bf;
+  border-radius: 4px; }
+
+.texto-mas-grande {
+  font-size: 3rem; }
+
+.texto-grey {
+  color: grey; }
+
+.texto-verde2 {
+  color: #66c1bf; }
+
+.bg-verde2 {
+  background-color: #66c1bf; }
