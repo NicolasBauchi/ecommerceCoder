@@ -11,30 +11,20 @@
 
 <body>
     <!--Menu navegable -->
-    <div class="p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
-            <div class="container-fluid me-auto">
-                <a class="navbar-brand pe-1 ps-3" href="index.html">
-                    <img src="imagenes/deli-logo.png" alt="" width="120" height="40">
-                </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html"><img src="imagenes/deli-logo.png" alt="" width="120"
+                        height="40"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse me-auto container p-0 m-0 " id="navbarSupportedContent">
 
-
-                    <div class="me-auto">
-                        <form class="d-flex mb-2 mb-lg-0 " style="width: 25rem;">
-                            <input class="form-control me-2 " type="search" placeholder="¿Qué buscás?"
-                                aria-label="Search">
-                            <button class="btn btn-outline-light hover-verde2 m-0" type="submit">Buscar</button>
-                        </form>
-                    </div>
-
-
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link text-light fw-bolder hover-verde2" href="index.html">INICIO</a>
                         </li>
@@ -53,34 +43,39 @@
                         <li class="nav-item">
                             <a class="nav-link text-light fw-bolder hover-verde2" href="micuenta.html">INGRESAR</a>
                         </li>
-
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué buscás?" aria-label="Search">
+                        <button class="btn btn-outline-light hover-verde2" type="submit">Buscar</button>
+                    </form>
                 </div>
             </div>
         </nav>
-    </div>
+    </header>
     <!-- FIN Menu navegable -->
 
     <!-- Header-->
-    <header class="bg-white mt-4 pt-3 ">
+    <div class="bg-white mt-4 pt-3 ">
         <h1 class="fw-bolder text-center border-bottom pb-2 container">Nuestros productos</h1>
 
         <!--Filtro productos-->
         <div class="container d-flex justify-content-end">
-            <span class="h6 my-auto ms-auto me-4 ">Mostrando todos los resultados </span> <span class="h6 my-auto me-4">11</span>
+            <span class="h6 my-auto ms-auto me-4 ">Mostrando todos los resultados </span> <span
+                class="h6 my-auto me-4">11</span>
 
-            <select class="form-select d-flex hover-verde2 me-0" style="max-width: 14rem;" aria-label="Default select example">
+            <select class="form-select d-flex hover-verde2 me-0" style="max-width: 14rem;"
+                aria-label="Default select example">
                 <option selected class="bg-white">Orden por defecto</option>
                 <option value="1" class="bg-white">Ordenar por popularidad</option>
                 <option value="2" class="bg-white">Ordenar por los últimos</option>
                 <option value="3" class="bg-white">Ordenar por precio: bajo a alto</option>
                 <option value="4" class="bg-white">Ordenar por precio: alto a bajo</option>
-              </select>
+            </select>
 
 
         </div>
 
-    </header>
+    </div>
     <!-- Productos-->
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5 gap-2">
@@ -186,7 +181,7 @@
                 <div class="col mb-5">
 
                     <div class="card border-0 bg-white text-center">
-                        <img src="imagenes/gift-card.jpg" class="card-img-top hover-agrandar" alt="..." >
+                        <img src="imagenes/gift-card.jpg" class="card-img-top hover-agrandar" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Gift card - Tarjeta Regalo</h5>
                             <p class="card-text text-center texto-verde2 fw-bolder">$2.000</p>
