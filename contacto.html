@@ -275,98 +275,47 @@
         </div>
     </div>
 
-    <!--cotacto free-->
-    <div class="container bg-success">
-        <!-- Wrapper container -->
-<div class="container py-4">
-
-    <!-- Bootstrap 5 starter form -->
-    <form id="contactForm">
-  
-      <!-- Name input -->
-      <div class="mb-3">
-        <label class="form-label" for="name">Name</label>
-        <input class="form-control" id="name" type="text" placeholder="Name" />
-      </div>
-  
-      <!-- Email address input -->
-      <div class="mb-3">
-        <label class="form-label" for="emailAddress">Email Address</label>
-        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
-      </div>
-  
-      <!-- Message input -->
-      <div class="mb-3">
-        <label class="form-label" for="message">Message</label>
-        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
-      </div>
-  
-      <!-- Form submit button -->
-      <div class="d-grid">
-        <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-      </div>
-  
-    </form>
-  
-  </div>
-
-    </div>
-    <!--fin contacto free-->
-
     <!--Comienzo de contacto-->
-    <div class="bg-white py-4 d-flex">
 
-        <div class="container p-0 mx-auto">
-
-            <h2 class="h1 text-dark text-center py-2">¿Quieres saber más?</h2>
-            <br>
-            <h3 class="fw-bolder text-dark text-center pb-4">FORMULARIO DE CONTACTO</h3>
-            <form action="#" class="container bg-primary mx-auto" style="width: 28rem;">
-
-                <div class="mb-3 container ">
-
-                    <div class="row">
-                        <label for="nombre" class="form-label fw-bolder"
-                            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Nombre</label>
-                    </div>
-                    <div class="row">
-                        <input type="text" class="border-1-grey rounded-3" id="nombre" placeholder="Nicolás"
-                            style="max-width: 24rem;">
-                    </div>
-
-
-                </div>
-
-                <div class="mb-3 container">
-                    <div class="row">
-                        <label for="mail" class="form-label fw-bolder"
-                            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">Email</label>
-                    </div>
-                    <div class="row">
-                        <input type="email" class="border-1-grey rounded-3" id="mail" placeholder="nombre@ejemplo.com" style="max-width: 24rem;">
-                    </div>
-
-                </div>
-
-
-                <div class="mb-3 container">
-
-                    <div class="row">
-                        <label for="consulta" class="form-label fw-bolder"
-                            style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Consulta</label>
-                    </div>
-                    <div class="row">
-                        <textarea class="border-1-grey rounded-3 " id="consulta" rows="4" style="max-width: 24rem;"></textarea>
-                    </div>
-
-                </div>
-
-                <div class="mb-3 container">
-                    <input type="button" value="Enviar" class="me-2 col-2 col-xs-2 btn btn-dark hover-verde2">
-                    <input type="reset" value="Limpiar campos" class="col-4 col-xs-3 btn btn-dark hover-verde2">
-                </div>
-            </form>
+    <div class="bg-white py-3">
+        <div class="container">
+            <h1 class="text-center py-3">¿Quieres saber más?</h1>
+            <h3 class="text-center py-2 fw-bolder">FORMULARIO DE CONTACTO</h3>
         </div>
+        <!--  container -->
+        <div class="container py-4" style="max-width: 34rem;">
+
+            <!-- Formulario -->
+            <form id="contactForm">
+
+                <!-- Nombre -->
+                <div class="mb-3">
+                    <label class="form-label fw-bolder" for="nombre">Nombre</label>
+                    <input class="form-control" id="nombre" type="text" placeholder="Su nombre" />
+                </div>
+
+                <!-- Correo -->
+                <div class="mb-3">
+                    <label class="form-label fw-bolder" for="correo">Dirección de correo</label>
+                    <input class="form-control" id="correo" type="email" placeholder="ejemplo@correo.com" />
+                </div>
+
+                <!-- Mensaje -->
+                <div class="mb-3">
+                    <label class="form-label fw-bolder" for="mensajeTexto">Mensaje</label>
+                    <textarea class="form-control" id="mensajeTexto" type="text"
+                        placeholder="Escriba acá su consulta..." style="height: 10rem;"></textarea>
+                </div>
+
+                <!-- Boton enviar -->
+                <div class="d-grid">
+                    <button class="btn btn-dark hover-verde2 fw-bolder btn-lg" type="submit">Enviar consulta</button>
+                </div>
+
+            </form>
+
+        </div>
+
     </div>
 
     <!--FIN de contacto-->
