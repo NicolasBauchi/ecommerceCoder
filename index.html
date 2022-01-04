@@ -10,74 +10,24 @@
 </head>
 
 <body>
-    <!--SEGUNDO MENU A PROBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <!-- FIN SEGUNDO MENU A PROBAR-->
+
+
 
     <!--Menu navegable -->
-    <div class="p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark py-2">
-            <div class="container-fluid me-auto">
-                <a class="navbar-brand pe-1 ps-3" href="index.html">
-                    <img src="imagenes/deli-logo.png" alt="" width="120" height="40">
-                </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html"><img src="imagenes/deli-logo.png" alt="" width="120"
+                        height="40"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse me-auto mx-auto my-auto" id="navbarSupportedContent">
 
-                    <div class="mx-auto  ">
-                        <form class="d-flex mb-2 mb-lg-0 " style="width: 25rem;">
-                            <input class=" me-2  rounded-3 border-0" style="width: 20rem;" type="search"
-                                placeholder="¿Qué buscás?" aria-label="Search">
-                            <button class="btn btn-outline-light hover-verde2 m-0" type="submit">Buscar</button>
-                        </form>
-                    </div>
-
-
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link text-light fw-bolder hover-verde2" href="index.html">INICIO</a>
                         </li>
@@ -96,12 +46,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-light fw-bolder hover-verde2" href="micuenta.html">INGRESAR</a>
                         </li>
-
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light hover-verde2" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
-    </div>
+    </header>
     <!-- FIN Menu navegable -->
 
     <!--Imagen bienvenida -->
@@ -109,7 +62,8 @@
         <div class="card bg-dark text-light rounded-0 ">
             <img src="imagenes/fondo-cafe-chico.jpg" class="card-img " alt="..." style="height: 18rem;">
             <div class="card-img-overlay bg-dark bg-opacity-50 d-flex">
-                <h1 class="fw-bolder mx-auto my-auto">CAFÉ RICO <br> FRESCO, <span class="texto-verde2">
+                <h1 class="fw-bolder mx-auto my-auto" style="font-size: 300%;">CAFÉ RICO <br> FRESCO, <span
+                        class="texto-verde2">
                         ENTREGADO EN TU <br> DOMICILIO</span></h1>
             </div>
         </div>
