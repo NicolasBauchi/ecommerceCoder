@@ -127,7 +127,13 @@ ul.socialIcons {
 }
 .hover-verde2:hover {
   background-color: #66c1bf;
+  border-color: #66c1bf;
   border-radius: 4px;
+}
+.hover-verde2-2:hover {
+  background-color: rgba(102, 193, 191, 0.5);
+  border-color: rgba(102, 193, 191, 0.5);
+  transition: 0.6s;
 }
 .texto-mas-grande {
   font-size: 3rem;
@@ -141,6 +147,10 @@ ul.socialIcons {
 .bg-verde2 {
   background-color: #66c1bf;
 }
-.fw-bold-600{
+.fw-bold-600 {
   font-weight: 600;
+}
+.hover-agrandar:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.6s;
 }
