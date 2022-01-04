@@ -7900,3 +7900,6 @@ ul.socialIcons {
 .hover-agrandar:hover {
   transform: scale(1.1, 1.1);
   transition: 0.6s; }
+
+.border-1-grey {
+  border: 1px solid rgba(128, 128, 128, 0.4); }
