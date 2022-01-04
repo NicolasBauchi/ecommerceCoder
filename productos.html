@@ -67,22 +67,15 @@
 
         <!--Filtro productos-->
         <div class="container d-flex justify-content-end">
-            <span class="h6 my-auto me-4">Mostrando todos los resultados </span> <span class="h6 my-auto me-4">11</span>
+            <span class="h6 my-auto ms-auto me-4 ">Mostrando todos los resultados </span> <span class="h6 my-auto me-4">11</span>
 
-            <div class="dropdown">
-                <button class="btn btn-dark hover-verde2 dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Orden por defecto
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item hover-verde2">Orden por defecto</a></li>
-                    <li><a class="dropdown-item hover-verde2">Ordenar por popularidad</a></li>
-                    <li><a class="dropdown-item hover-verde2">Ordenar por los últimos</a></li>
-                    <li><a class="dropdown-item hover-verde2">Ordenar por precio: bajo a alto</a></li>
-                    <li><a class="dropdown-item hover-verde2">Ordenar por precio: alto a bajo</a></li>
-
-                </ul>
-            </div>
+            <select class="form-select d-flex hover-verde2 me-0" style="max-width: 14rem;" aria-label="Default select example">
+                <option selected class="bg-white">Orden por defecto</option>
+                <option value="1" class="bg-white">Ordenar por popularidad</option>
+                <option value="2" class="bg-white">Ordenar por los últimos</option>
+                <option value="3" class="bg-white">Ordenar por precio: bajo a alto</option>
+                <option value="4" class="bg-white">Ordenar por precio: alto a bajo</option>
+              </select>
 
 
         </div>
